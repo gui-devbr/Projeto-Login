@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+:root {
+
+}
+
+#Login {
+    width:400px;
+    margin:auto;
+}
+
+#formularios  > form > input{
+    margin-top:10px;
+
+}
