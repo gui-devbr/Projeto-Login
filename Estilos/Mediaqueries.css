@@ -24,6 +24,12 @@
         width:30%;
         height:300px;
     }
+
+    #formularios > h1 { 
+        font-size:1em;
+    }
+
+    
 }
 
 @media screen and (min-width:993px){
@@ -39,6 +45,14 @@
         float:Right;
         width:50%;
         
+    }
+
+    #formularios > h1 {
+        font-size:1.2em;
+    }
+
+    #formularios > p {
+        font-size:1em;
     }
 
     #Imagem {

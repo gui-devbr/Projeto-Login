@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Estilos/style.css">
     <link rel="stylesheet" href="Estilos/Mediaqueries.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
     <title>Login</title>
 </head>
 <body>
@@ -22,16 +23,28 @@
     <h1>Login</h1>
 
     <p>Seja bem  vindo(a) novamente. Faça login novamente para acessar sua conta e poder fazer as configuraçoes no seu ambiente. </p>
-<form action="teste.php" method="post">
-    <label for="Email">Digite seu Email:</label>
-    <input type="email" name="Email" id="Email">
+<form action="teste.php" method="post" autocomplete="on">
+<div class="form">
+    <span class="material-symbols-outlined">
+person
+</span>
+    
+<input type="email" name="Email" id="Email" placeholder="Digite seu Email" autocomplete="email" required>
+<label for="Email">Digite seu Email:</label>
+
+</div>
     
 <br>
 
+<div class="form">
+<span class="material-symbols-outlined">
+vpn_key</span>
+<input type="password" name="Senha" id="Senha" placeholder="digite sua senha" autocomplete="current-password" riquired minlength="8">
 <label for="Senha">Digite sua senha:</label>
-    <input type="password" name="Senha" id="Senha">
+</div>
     <br>
 <input type="submit" value="Enviar">
+<a href="esqueci.html" class="botao">Esqueceu a senha?</a>
 </form>
 
 </div>

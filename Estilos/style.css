@@ -13,7 +13,7 @@
 }
 
 body, html {
-    background: var(--lilas);
+    background:var(--lilas);
     width:100vw;
     height:100vh;
     position:relative;
@@ -37,10 +37,66 @@ section#Login > div#Imagem {
     background-size:cover;
 }
 #formularios > form > label {
+
+    display:none;
     margin-top:15px;
 }
 #formularios  > form > input{
-    margin-top:20px;
+    margin-top:5px;
+    padding:20px;
 
 
+
+}
+
+#formularios > h1 {
+    font-size:1em;
+    margin-bottom:10px;
+    color:cornflowerblue;
+    text-align:center;
+}
+
+#formularios  > p {
+    font-size:0.8em;
+    color:black;
+    margin-bottom:20px;
+}
+
+form > input[type=submit]{
+    display:block;
+    margin-bottom:10px;
+    font-size:0.8em;
+    background:var(--verde);
+    text-align:center;
+    width:100%;
+    height:50px;
+    color:White;
+    border-radius:8px;
+    
+    
+}
+
+form > input[type=submit]:hover {
+    background: #2c6664;
+    transform: translate(1px, 3px);
+    transition-duration:0.3s;
+    
+}
+
+form > a {
+    display:block;
+    text-decoration:none;
+    width:100%;
+    height:50px;
+    text-align:center;
+    color:white;
+    background:var(--verde);
+    padding-top:10px;
+    border:1px solid black;
+    border-radius:6px;
+}
+form > a:hover {
+    background: #2c6664;
+    transform:translate(2px, 4px);
+    transition-duration:0.3s;
 }
